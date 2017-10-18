@@ -1,5 +1,5 @@
 /**
- * Created by iyasuwatts on 10/17/17.
+ * Created by Timothy Rager on 10/18/17.
  */
 import java.util.*;
 
@@ -12,7 +12,7 @@ public class Main {
         System.out.print("Please enter your name: ");
         name=in.nextLine();
 
-        if (name.equalsIgnoreCase("Bob") || name.equalsIgnoreCase("Alice"))
+        if ("Bob".equalsIgnoreCase(name) || "Alice".equalsIgnoreCase(name))
         {
             System.out.println("Hello "+name);
         }
