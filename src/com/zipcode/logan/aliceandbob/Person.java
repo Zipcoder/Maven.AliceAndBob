@@ -23,7 +23,7 @@ public class Person {
     }
 
     public boolean isBobOrAlice() {
-        if (name.equalsIgnoreCase("Alice") || name.equalsIgnoreCase("Bob")) {
+        if ("Alice".equalsIgnoreCase(name) || "Bob".equalsIgnoreCase(name)) {
             acceptable = true;
         }
         return acceptable;

@@ -1,5 +1,5 @@
 package com.zipcode.logan.aliceandbob;
-import java.util.*;
+import java.util.Scanner;
 import java.lang.*;
 
 public class Main {
