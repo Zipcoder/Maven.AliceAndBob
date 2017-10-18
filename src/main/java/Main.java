@@ -8,27 +8,23 @@ public class Main {
 
         //Request user to input first name
         System.out.println("Hello, what is your first name?");
-
-        //Create array for later storing input names
-        ArrayList<String> name = new ArrayList<String>;
-
-        //Create scanner to check user input then add to aforementioned array
+        //Create scanner to check user input and add to string "name"
         Scanner userCheck = new Scanner(System.in);
-        userCheck.nextLine().add(name);
+        String name = userCheck.nextLine();
 
-        //If name stored in array is "Alice" then greet user
-        If(name = "Alice") {
+        //If name stored in string is "Alice" then greet user
+        if(name.equals("Alice")) {
             System.out.println("Greetings, Alice!!!");
         }
-        
-        //If name stored in array is "Bob" then greet user
-        else if(name = "Bob") {
+
+        //If name stored in string is "Bob" then greet user
+        else if(name.equals("Bob")) {
             System.out.println("Greetings, Bob!!!");
 
         }
-        
+
         //If name stored in array is anything else then do not greet user
-        else() {
+        else {
             System.out.println("I have nothing to say to you!");
         }
 
