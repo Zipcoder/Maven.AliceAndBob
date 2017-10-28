@@ -1,13 +1,22 @@
 import java.util.Scanner;
 
 public class Main {
-    public static void main(String[] args) {
-        Scanner scanner = new Scanner(System.in);
-        String input = scanner.nextLine();
+//Write a program which prompts the user to input his/her name.
+//The program should greet users whose names are 'Alice' and 'Bob'.
+//Understand how to get input from user
+//Create conditional to check against Alice and Bob
+//Print greeting to screen if Alice or Bob are true
 
-        if ("Alice".equals(input) || "Bob".equals(input)); {
-            System.out.print("Hello, " + input);
-        }
+    public static void main(String[] args) {
+    Scanner scanner = new Scanner(System.in);
+    System.out.println("Please enter your name.");
+    String userInput = scanner.nextLine();
+
+
+    if ("Alice".equals(userInput) || "Bob".equals(userInput)){
+        System.out.print("Hello, " + userInput + ".");
+    }
+
     }
 }
 
