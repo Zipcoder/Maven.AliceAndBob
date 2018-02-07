@@ -8,8 +8,8 @@ public class Main {
     public static void main(String[] args ){
         Scanner input = new Scanner(System.in);
 
-        System.out.println("Please enter name: ");
-        // 3. Use the Scanner to read a line of text from the user.
+        System.out.print("Please enter name: ");
+
         String userInput = input.nextLine();
 
         if (userInput.equalsIgnoreCase("Alice")){
