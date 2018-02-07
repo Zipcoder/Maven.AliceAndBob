@@ -9,7 +9,7 @@ public class Main {
         Scanner name = new Scanner(System.in);
         System.out.println("Please enter your name:");
         String nameInput = name.nextLine();
-        if (nameInput.equalsIgnoreCase("Alice" )| nameInput.equalsIgnoreCase( "Bob")) {
+        if (nameInput.equalsIgnoreCase("Alice" ) || nameInput.equalsIgnoreCase( "Bob")) {
             System.out.println("Hello " + nameInput);
         }
 
