@@ -7,18 +7,19 @@ import  java.util.Scanner;
 
 public class Main {
 
-    public static void main(String[] args ) {
+    public static void main(String[] args) {
         Scanner in = new Scanner(System.in);
 
         System.out.println("What is your name?");
 
         String input = in.nextLine();
 
-        if (input == "Alice") {
+        if (input.equalsIgnoreCase("Alice")) {
             System.out.println("Hello " + input);
-        } else if (input == "Bob") {
+        } else if (input.equalsIgnoreCase("Bob")) {
             System.out.println("Hello " + input);
         } else {
             System.out.println("Thats not my name");
         }
     }
+}
