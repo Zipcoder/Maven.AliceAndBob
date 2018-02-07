@@ -17,10 +17,10 @@ public class Main {
 
         if (userName.equals("Bob") || userName.equals("Alice")) {
             System.out.println("Hello, " + userName);
-        } else (userName.equals()) {
-                System.out.println("You are not my friend.");
-                }
+        } else  {
+            System.out.println("You are not my friend");
+        }
+        }
 
 
-}
 }
