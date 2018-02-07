@@ -9,13 +9,13 @@ import java.util.Scanner;
 public class Main {
 
     public static void main(String[] args ){
-        Scanner AliceBob = new Scanner(System.in);
+        Scanner input = new Scanner(System.in);
         System.out.println("Please enter your name: ");
-        String person = AliceBob.nextLine();
+        String person = input.nextLine();
         if (person.equals("Alice")) {
-            System.out.println("Hello" + AliceBob);
+            System.out.println("Hello " + person);
         } else if (person.equals("Bob")){
-            System.out.println("Hello" + AliceBob);
+            System.out.println("Hello " + person);
         }
 
 
