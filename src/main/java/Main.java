@@ -16,6 +16,6 @@ public class Main {
         if (usersName.equals("Alice") || usersName.equals("Bob")) {
             System.out.println("Hello " + usersName + ", nice to meet you!");
         } else{
-        System.out.println("Hello " + usersName + ", you are not a member!");}
+            System.out.println("Hello " + usersName + ", you are not a member!");}
     }
 }
