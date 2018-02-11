@@ -5,7 +5,7 @@ import java.util.Scanner;
 
 public class Main {
 
-    public static void main(String[] args ){
+    public static void main(String[] args) {
 
         Scanner sc = new Scanner(System.in);
         String usersName;
@@ -13,9 +13,9 @@ public class Main {
         System.out.println("Hello! Please enter your name: ");
         usersName = sc.nextLine();
 
-       if( usersName.equals("Alice") || usersName.equals("Bob")){
-           System.out.println("Hello, " + usersName + ", nice to meet you!");
-       }
-
+        if (usersName.equals("Alice") || usersName.equals("Bob")) {
+            System.out.println("Hello " + usersName + ", nice to meet you!");
+        } else{
+        System.out.println("Hello " + usersName + ", you are not a member!");}
     }
 }
