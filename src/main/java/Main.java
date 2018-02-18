@@ -13,7 +13,7 @@ public class Main{
         if(usersName.equalsIgnoreCase("alice") || usersName.equalsIgnoreCase("bob")){
             System.out.println("Sup, " + usersName);
         } else {
-            System.out.println("We're sorry. We don't like you. You don't get a greeting. Have a nice day.");
+            System.out.println("We're sorry. We don't like you. You don't get a personal greeting. Have a nice day.");
             }
     }
 }
